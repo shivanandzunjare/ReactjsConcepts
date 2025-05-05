@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Parent from './Parent'
 
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
+    <Parent />
+     
     </>
-      
   )
 }
 
